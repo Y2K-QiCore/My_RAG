@@ -56,7 +56,7 @@ prompt = ChatPromptTemplate.from_template(template)
 llm = ChatDeepSeek(
     model="deepseek-chat",      # 或者 "deepseek-reasoner" 如果你想用推理模型
     temperature=0.7,
-    api_key="sk-9c5be891476c4431ab0206e357200370"
+    api_key="sk-XXXXXXXXXXXXXXXXXXXXXX"             #这里写入你的Deepseek API KEY
     # 如果你有 DeepSeek API Key，可以在这里设置或通过环境变量 DEEPSEEK_API_KEY
 )
 
